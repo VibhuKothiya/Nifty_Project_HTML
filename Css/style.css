@@ -1,0 +1,671 @@
+body {
+    font-family: 'Rajdhani', Sans-serif !important;
+    background-color: #0c0324 !important;
+    color: #ffff !important;
+    font-weight: 600 !important;
+}
+
+.container {
+    max-width: 1110px !important;
+}
+
+.sticky-btn {
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #212121;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 18px;
+    color: #FFFFFF99;
+}
+
+a {
+    font-size: 18px !important;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-200 {
+    padding-top: 200px;
+}
+
+.h3,
+h2,
+h3,
+h4 {
+    font-weight: 600;
+}
+
+.section {
+    max-width: 570px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.section p {
+    margin-bottom: 0px !important;
+    font-family: 'Nunito Sans' !important;
+
+}
+
+.section h2 {
+    font-size: 75px !important;
+    margin-bottom: 25px;
+}
+
+.card-subtitle {
+    font-family: 'Nunito Sans' !important;
+    font-size: 14px !important;
+}
+
+
+/* <!-- =====================================NAVBAR=================================== --> */
+.hero-home-background {
+    background-color: #0c0324;
+    background-image: url(../Image/bg-hero-home.png);
+    background-position: 0px -80px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;  
+    
+}
+.hero-home-background::before {
+    content: "";
+    top: 0;
+    left: 0;
+    /* background-image: linear-gradient(90deg, #4e10ff 0%, #ab17df 100%) !important; */
+    position: absolute;
+    z-index: -1;    
+    height: 100%;
+    width: 100%;   
+    opacity: 0.5; 
+}
+
+header .navbar-nav a.nav-link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    background-color: #9A10C2;
+    height: 3px;
+    transition: transform 0.3s ease;
+    transform: scale(0, 1);
+}
+
+header a.nav-link.active::after {
+    background-color: #9A10C2 !important;
+    transform: scale(1, 1);
+}
+
+header .navbar-nav a.nav-link:hover::after {
+    transform: scale(1, 1);
+}
+
+header .navbar-nav a.nav-link:hover {
+    color: #9A10C2 !important;
+}
+
+header .navbar-nav .nav-link.active {
+    color: #9A10C2 !important;
+
+}
+
+.dropdown-toggle::after {
+    vertical-align: middle;
+    margin-left: 0.255em !important;
+}
+
+.navbar-nav a.nav-link {
+    color: #ffff !important;
+    padding: 32px 28px 25px 2px !important;
+    position: relative;
+}
+
+a.dropdown-item {
+    color: #ffff !important;
+}
+
+.navbar-brand {
+    margin-right: 50px !important;
+}
+
+.sticky-top {
+    width: 100%;
+    position: fixed !important;
+    left: 0;
+    height: auto;
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 6%);
+    background-color: #0C0324 !important;
+    border-bottom: 1px solid #FFFFFF33;
+}
+
+/* .navbar{
+    position: fixed !important;
+    top: 0 !important;
+    background-color: #0C0324 !important;
+    z-index: 9999;
+} */
+.dropdown-menu {
+    background-color: #0C0324 !important;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #ffffff12 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #4E10FF !important;
+}
+
+.dropdown-item {
+    font-weight: 600 !important;
+}
+
+.Other-options {
+    margin-left: auto !important;
+}
+
+.btn {
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    transform: translateY(-10px);
+}
+
+.arrow-right {
+    margin-left: 13px !important;
+}
+
+
+.btn-color {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #4e10ff 0%, #ab17df 100%) !important;
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+.navbar-nav hr {
+    margin: 0px !important;
+}
+
+/* <!-- =====================================Main banner=================================== --> */
+
+.main-banner .main-banner-content h1 span{
+    position: absolute;
+}
+.main-banner-content h1 {
+    font-size: 82px !important;
+    /* margin-bottom: 25px !important; */
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.main-banner-divider {
+
+    color: #FEAD10;
+
+    width: 100%;
+    max-width: 100%;
+}
+
+.main-banner-divider .container {
+    margin: 0px 145px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.main-banner-divider .divider {
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+}
+
+.main-banner-divider .divider-seprator {
+    border-top: 34px solid #FEAD10;
+    width: 140px;
+    margin: 0 auto;
+    margin-right: 126px;
+    margin-top: -50px;
+    
+}
+
+.main-banner-content {
+    max-width: 550px !important;
+}
+
+.main-banner-content p {
+    margin-bottom: 32px !important;
+    font-family: 'Nunito Sans' !important;
+}
+
+.main-banner-content .btn {
+    padding: 13px 28px 13px 28px !important;
+}
+
+.main-banner-content .btn-color1 {
+    background-color: transparent !important;
+    /* background-image: linear-gradient(90deg, #ffffff00 0%, #ffffff00 100%) !important; */
+    color: #ffffff99 !important;
+    /* fill: #ffffff99 !important; */
+    padding: 13px 28px 13px 28px !important;
+    --bs-btn-border-color: #ffffff99 !important;
+    margin-left: 30px;
+}
+
+.main-banner-content .btn-color1:hover {
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+}
+
+.elementor-funfacts {
+    margin-top: 78px;
+    margin-bottom: 0px;
+}
+
+.elementor-funfacts h3 {
+    font-size: 48px;
+    margin-bottom: 0px !important;
+    font-weight: 600;
+}
+
+.single-funfacts-box p {
+    color: #ffffff99 !important;
+    margin-bottom: 0px !important;
+}
+
+.elementor-funfacts .margin1 {
+    padding: 0px 55px 0px 0px;
+}
+
+.elementor-funfacts .margin2 {
+    padding: 0px 55px 0px 55px;
+}
+
+.elementor-funfacts .margin3 {
+    padding: 0px 0px 0px 55px;
+}
+
+.elementor-funfacts .border-end {
+    border-right: 1px solid #ffffff33 !important;
+}
+
+.main-banner-image-background {
+    background-color: #0c0324e3 !important;
+    border: 1px solid #A616E0 !important;   
+    padding: 0px 20px 20px 0px !important;
+    border-radius: 8px 8px 8px 8px;
+    height: 100%;   
+    transition: 0.5s ease;   
+}
+.main-banner-image1{
+    margin: -20px 0px 0px -20px;      
+}
+
+.main-banner-image {
+    padding: 20px 0px 0px 64px;
+}
+
+/* <!-- =====================================Partners=================================== --> */
+.partners-area .container {
+    max-width: 1600px !important;
+}
+
+.sub-title hr {
+    margin: 32px 0px !important;
+}
+
+.partners-area img {
+    opacity: 0.3;
+    transition-duration: 0.5s;
+}
+
+.partners-area img:hover {
+    opacity: 1;
+}
+
+.partners-area-content {
+    max-width: 1240px;
+    margin: auto !important;
+}
+
+/* <!-- =====================================Nifty-Story=================================== --> */
+
+.nifty-story-content .btn {
+    padding: 13px 28px 13px 28px !important;
+}
+
+.nifty-story .section {
+    margin-bottom: 0px !important;
+    text-align: justify;
+}
+
+.nifty-story .card-body {
+    /* background-color: #1D1533; */
+    color: #fff;
+    padding: 40px;
+    margin-top: -170px;
+    margin-bottom: 0px;
+}
+
+.card-text {
+    background-color: #0c032480;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+.card-text h3,
+h4 {
+    margin-bottom: 0px;
+}
+
+.card {
+    border: 1px solid #0C0324 !important;
+    background-color: #1D1533;
+}
+
+/* <!-- =====================================Nifty-Collections=================================== --> */
+.box-star-background {
+    background-color: #0c0324;
+    background-image: url(../Image/bg-boxstar.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.nifty-collections .card p {
+    color: #fff !important;
+}
+
+.card-img,
+.card-img-top {
+    border-radius: 5px !important;
+}
+
+.nifty-collections .section {
+    text-align: center;
+    padding-top: 125px;
+}
+
+.nifty-collections .card-body {
+    padding: 0px !important;
+}
+
+.nifty-collections .card-text {
+    padding: 16px 20px !important;
+    margin-top: 8px !important;
+}
+
+.nifty-collections-btn .btn {
+    padding: 16px 32px !important;
+}
+
+.nifty-collections p {
+    margin-bottom: 0px !important;
+}
+
+/* <!-- =====================================Roadmap================================== --> */
+.vr {
+    margin: 0px 20px;
+    color: #FFFFFF33;
+    width: 3px
+}
+
+.Roadmap.box-star-background {
+    background-position: top right !important;
+    background-image: url(../Image/bg-boxstar.png), url(../Image/noise.png);
+}
+
+.Roadmap .card {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF12;
+}
+
+.Roadmap .card-text {
+    background-color: transparent;
+}
+
+.Roadmap .card1 {
+
+    margin-left: 100px;
+
+}
+
+.Roadmap .section {
+    margin-bottom: 0px;
+}
+
+.Roadmap .card-body {
+    padding: 32px;
+}
+
+.Roadmap-img {
+    height: auto !important;
+    max-width: 100% !important;
+}
+
+
+/* <!-- =====================================Quick Questions================================== --> */
+.accordion {
+    --bs-accordion-color: #fff !important;
+    --bs-accordion-bg: #0c0324 !important;
+    --bs-accordion-border-color: #0c0324 !important;
+    --bs-accordion-border-width: 0px !important;
+    --bs-accordion-btn-color: #fff !important;
+    --bs-accordion-active-bg: #0c0324 !important;
+    --bs-accordion-active-color: #fff !important;
+    padding-left: 22px;
+}
+
+.Quick-Questions {
+    padding-top: 50px !important;
+}
+
+.accordion-button {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    text-transform: capitalize;
+}
+
+.accordion-item p {
+    font-family: 'Nunito Sans' !important;
+}
+
+
+.accordion-body {
+    text-align: justify;
+}
+
+/* <!-- =====================================Team-area================================== --> */
+
+.Team-area .card-link {
+    background-color: #ab17df;
+    padding: 5px;
+}
+
+.Team-area .card-text {
+    padding: 10px !important;
+}
+
+.Team-area .card-text a:hover {
+    background-color: #fff !important;
+    color: #ab17df !important;
+}
+
+/* <!-- =====================================Testimonials================================= --> */
+
+.Testimonials-area-content .card-body .card-text {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: transparent !important;
+    margin-top: 0px !important;
+}
+
+.Testimonials-area-content .card-body {
+    padding: 64px;
+}
+
+.Testimonials-content h2 {
+    font-size: 36px !important;
+}
+
+/* <!-- =====================================MERCHANDISE================================= --> */
+.product .btn-primary {
+    background-color: #ab17df !important;
+    --bs-btn-border-color: #ab17df !important;
+    --bs-btn-hover-border-color: #ab17df !important;
+}
+
+.Merchandise-area ul li.product {
+    border-radius: 8px;
+    padding: 8px 8px 16px 8px;
+}
+.Merchandise-area .card .card-body{
+    padding: 12px !important;
+}
+
+/* <!-- =====================================BLOG-AREA================================= --> */
+
+.blog-area .card-link {
+    color: #ab17df;
+}
+
+/* <!-- =====================================FOOTER-AREA================================= --> */
+.footer-area {
+    padding: 32px 0px 32px 0px !important;
+}
+
+.footer-background {
+    background-color: #0c0324;
+    background-image: url(../Image/noise-footer.png), linear-gradient(90deg, #4e10ff 0%, #ab17df 100%) !important;
+    background-position: top right;
+    background-repeat: no-repeat;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s !important;
+    padding: 32px 32px 32px 32px !important;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.footer-content h2 {
+    font-size: 36px !important;
+}
+
+.footer-content .form-control {
+    width: auto !important;
+}
+
+.footer-logo-content .footer-logo-content1 {
+    margin-bottom: 32px !important;
+}
+
+.social-icon {
+    word-spacing: 16px;
+    font-size: 20px !important;
+}
+
+.social-icon a i {
+    transition: 0.5s;
+}
+
+.social-icon a i:hover {
+    transform: translateY(-8px);
+    color: #FEAD10;
+}
+
+.copyright-area .navbar-nav a.nav-link {
+    color: #FFFFFF99 !important;
+}
+
+.copyright-area-content .navbar-nav a.nav-link {
+    padding: 0px !important;
+}
+
+.footer-logo-content1 {
+    font-family: 'Nunito Sans' !important;
+}
+
+.nav-menu {
+    font-family: 'Nunito Sans' !important;
+}
+
+.copyright-area-content {
+    font-family: 'Nunito Sans' !important;
+    font-size: 14px !important;
+}
+
+
+/* <!-- =====================================Contact Us=================================== --> */
+.contact-us-background {
+    background-image: url(../Image/hero-contact-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 230px 0px 150px 0px;
+    /* opacity: 0.5; */
+    position: relative;
+    z-index: 1;
+}
+
+.contact-us-background::before {
+    content: "";
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(90deg, #4e10ff 0%, #ab17df 100%) !important;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;    
+}
+
+.contact-us-content h1 {
+    font-size: 82px !important;
+    font-weight: 600 !important;
+}
+
+.contact-us-content ul {
+    font-size: 18px !important;
+}
+
+.contact-us-content li a:hover {
+    color: #FEAD10;
+}
+
+.contact-us-content li :hover {
+    color: #FEAD10;
+}
+
+/* <!-- =====================================contact-form=================================== --> */
+
+.contact-form-area .contact-form {
+    padding-left: 64px;
+}
+
+.contact-form .send-Message {
+    padding: 32px;
+}
+
+.contact-form-content {
+    font-family: 'Nunito Sans' !important;
+}
